@@ -9,7 +9,7 @@ const Food = () => {
   const filterType = (category) => {
     setFoods(
       data.filter((item) => {
-        return item.category == category;
+        return item.category === category;
       })
     );
   };
